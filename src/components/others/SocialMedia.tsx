@@ -22,25 +22,25 @@ export default function SocialMedia () {
 
       <div className="w-full flex flex-col items-center lg:items-start justify-start space-y-7">
         <div className="w-full flex flex-row items-center justify-center lg:justify-start space-x-10">
-          <a href="https://github.com/Wildanzr" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Santhosh553" target="_blank" rel="noreferrer">
             <FaGithub className="text-4xl fill-alternate hover:fill-pink-400 duration-300 dark:fill-snow dark:hover:fill-blue-400" />
           </a>
-          <a href="https://www.instagram.com/dannzrrr/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/_santho.__/" target="_blank" rel="noreferrer">
             <FaInstagram className="text-4xl fill-alternate hover:fill-pink-400 duration-300 dark:fill-snow dark:hover:fill-blue-400" />
           </a>
-          <a href="https://twitter.com/Wildanzr24" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/Santhosh553" target="_blank" rel="noreferrer">
             <FaTwitter className="text-4xl fill-alternate hover:fill-pink-400 duration-300 dark:fill-snow dark:hover:fill-blue-400" />
           </a>
         </div>
 
         <div className="w-full flex flex-row items-center justify-center lg:justify-start space-x-10">
-          <a href="https://www.linkedin.com/in/wildanzr/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/Santhosh553/" target="_blank" rel="noreferrer">
             <FaLinkedin className="text-4xl fill-alternate hover:fill-pink-400 duration-300 dark:fill-snow dark:hover:fill-blue-400" />
           </a>
-          <a href="https://dev.to/wildanzr" target="_blank" rel="noreferrer">
+          <a href="https://dev.to/santhosh553" target="_blank" rel="noreferrer">
             <FaDev className="text-4xl fill-alternate hover:fill-pink-400 duration-300 dark:fill-snow dark:hover:fill-blue-400" />
           </a>
-          <a href="https://medium.com/@wildanzr" target="_blank" rel="noreferrer">
+          <a href="https://medium.com/@Santhosh553" target="_blank" rel="noreferrer">
             <FaMedium className="text-4xl fill-alternate hover:fill-pink-400 duration-300 dark:fill-snow dark:hover:fill-blue-400" />
           </a>
         </div>
