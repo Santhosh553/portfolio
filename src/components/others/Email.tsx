@@ -85,7 +85,7 @@ export default function Email () {
               rules={[
                 {
                   required: true,
-                  message: 'Please input your message!'
+                  message: 'Please input your message!!'
                 }
               ]}
               className="w-full"
