@@ -19,7 +19,7 @@ export default function Email () {
       from_name: values.name,
       from_email: values.email,
       message: values.message,
-      to_name: 'Wildan',
+      to_name: 'Santhosh',
       reply_to: values.email
     }
 
