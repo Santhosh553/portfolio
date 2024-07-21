@@ -68,29 +68,31 @@ const About = () => {
       <TitleSection title="About Me" />
 
       <div className="w-full flex flex-col space-y-3 items-center justify-center">
-        <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
-          Hii,... my name is
-          <Highlight content=" Santhosh Senthil" />
-         <br /> As a student of
-          Computer Science Engineering at Velammal Engineering College, I am
-          passionate about exploring new technologies and constantly improving
-          my skills as a
-          <Bold content=" Full-Stack Developer" />. I specialize in using the{' '}
-          <Bold content="MERN Stack" />, which includes
-          <Bold content=" MongoDB, Express, React, Node.js" /> and other related
-          technologies.
-        </p>
-        <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
-          With my expertise in this area, I am confident that I can make a
-          valuable contribution to your organization as a Full-Stack Developer.
-          I am committed to developing powerful, scalable web applications that
-          adhere to best practices in software development. ✌
-        </p>
-        <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
-          Let&apos;s work together to build innovative and high-performing
-          applications that drive your business forward. 😎
-        </p>
-      </div>
+      <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
+        Hi,... my name is
+        <Highlight content=" Santhosh Senthil" />
+        <br /> As a student of
+        Computer Science Engineering at Velammal Engineering College, I am
+        passionate about exploring new technologies and constantly improving
+        my skills as a
+        <Bold content=" Full-Stack Developer" />. I specialize in using the{' '}
+        <Bold content="MERN Stack" />, which includes
+        <Bold content=" MongoDB, Express, React, Node.js" /> along with various other related
+        technologies. I am also proficient in Java development using{' '}
+        <Bold content="Spring Boot" /> and other software development practices.
+      </p>
+      <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
+        With my expertise in full stack development, Java development, and cloud computing,
+        I am confident that I can make a valuable contribution to your organization. 
+        I am committed to developing powerful, scalable web applications that adhere 
+        to best practices in software development. 🚀
+      </p>
+      <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
+        Let&apos;s work together to build innovative and high-performing
+        applications that drive your business forward. 😎
+      </p>
+    </div>
+
 
       <div className="w-full flex flex-col items-center justify-center py-10 lg:px-20 space-y-8">
         <div className="w-full flex flex-col justify-start items-center">
