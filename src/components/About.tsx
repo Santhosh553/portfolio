@@ -72,7 +72,7 @@ const About = () => {
           Hii,... my name is
           <Highlight content=" Santhosh Senthil" />
          <br /> As a student of
-          Information Technology Education at the University of Brawijaya, I am
+          Computer Science Engineering at Velammal Engineering College, I am
           passionate about exploring new technologies and constantly improving
           my skills as a
           <Bold content=" Full-Stack Developer" />. I specialize in using the{' '}
