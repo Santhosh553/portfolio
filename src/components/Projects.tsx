@@ -9,49 +9,50 @@ import { TitleSection, DisplayProject } from './others'
 const Projects = () => {
   const projects = [
     {
-      name: 'LetsCode - Solve Problem Collaboratively',
+      name: 'Flight Path: Your Ticket to Adventure',
       images: [
-        '/images/lc1.webp',
-        '/images/lc2.webp',
-        '/images/lc3.webp',
-        '/images/lc4.webp',
-        '/images/lc5.webp',
-        '/images/lc6.webp',
-        '/images/lc7.webp'
+        '/images/Flight/A1.png',
+        '/images/Flight/A2.png',
+        '/images/Flight/A3.png',
+        '/images/Flight/A4.png',
+        '/images/Flight/A5.png',
+        '/images/Flight/A6.png',
+        '/images/Flight/A7.png'
       ]
     },
     {
-      name: 'BCDev Landing Page',
+      name: 'Cafe Chroma: Where Flavors Paint the Day',
       images: [
-        '/images/bc1.webp',
-        '/images/bc2.webp',
-        '/images/bc3.webp',
-        '/images/bc4.webp'
+        '/images/Cafe/C1.png',
+        '/images/Cafe/C2.png',
+        '/images/Cafe/C3.png',
+        '/images/Cafe/C4.png',
+        '/images/Cafe/C5.png',
+        '/images/Cafe/C6.png',
+        '/images/Cafe/C7.png',
+        '/images/Cafe/C8.png',
+        '/images/Cafe/C9.png'
       ]
     },
     {
-      name: 'Online Learning',
+      name: 'BookWise: A Smart Library Management System',
       images: [
-        '/images/ol1.webp',
-        '/images/ol2.webp',
-        '/images/ol3.webp',
-        '/images/ol4.webp',
-        '/images/ol5.webp',
-        '/images/ol6.webp',
-        '/images/ol7.webp',
-        '/images/ol8.webp',
-        '/images/ol9.webp'
+        '/images/LMS/L1.png',
+        '/images/LMS/L2.png',
+        '/images/LMS/L3.png'
       ]
     },
     {
-      name: 'Sakinah Residence Marketing Website',
+      name: 'Amazart: Shop with Style and Ease',
       images: [
-        '/images/sk1.webp',
-        '/images/sk2.webp',
-        '/images/sk3.webp',
-        '/images/sk4.webp',
-        '/images/sk5.webp',
-        '/images/sk6.webp'
+        '/images/ECommerce/E1.png',
+        '/images/ECommerce/E2.png',
+        '/images/ECommerce/E3.png',
+        '/images/ECommerce/E4.png',
+        '/images/ECommerce/E5.png',
+        '/images/ECommerce/E6.png',
+        '/images/ECommerce/E7.png',
+        '/images/ECommerce/E8.png'
       ]
     },
     {
