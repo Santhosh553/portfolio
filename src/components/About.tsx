@@ -38,7 +38,7 @@ const About = () => {
         }
       ]
     }
-  ] 
+  ]
   return (
     <div
       id="about"
@@ -62,8 +62,8 @@ const About = () => {
       </p>
       <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
         With my expertise in full stack development, Java development, and cloud computing,
-        I am confident that I can make a valuable contribution to your organization. 
-        I am committed to developing powerful, scalable web applications that adhere 
+        I am confident that I can make a valuable contribution to your organization.
+        I am committed to developing powerful, scalable web applications that adhere
         to best practices in software development. 🚀
       </p>
       <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
@@ -71,7 +71,6 @@ const About = () => {
         applications that drive your business forward. 😎
       </p>
     </div>
-
 
       <div className="w-full flex flex-col items-center justify-center py-10 lg:px-20 space-y-8">
         <div className="w-full flex flex-col justify-start items-center">

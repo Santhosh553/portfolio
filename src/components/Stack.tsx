@@ -4,7 +4,7 @@ import emoji from 'react-easy-emoji'
 
 import Development from '../assets/lotties/development.json'
 import Cloud from '../assets/lotties/cloud.json'
- import DevOps from '../assets/lotties/devops.json'
+import DevOps from '../assets/lotties/devops.json'
 import Java from '../assets/lotties/java.json'
 import Software from '../assets/lotties/software.json'
 
@@ -12,7 +12,7 @@ const Stack = () => {
   const techStack = [
     {
       name: 'Full Stack Developer',
-      icon: Development, 
+      icon: Development,
       align: 'lg:flex-row',
       emoji: '🚀',
       services: [
@@ -23,7 +23,7 @@ const Stack = () => {
     },
     {
       name: 'Java Development',
-      icon: Java, 
+      icon: Java,
       align: 'lg:flex-row-reverse',
       emoji: '☕',
       services: [
@@ -34,7 +34,7 @@ const Stack = () => {
     },
     {
       name: 'Software Development',
-      icon: Software, 
+      icon: Software,
       align: 'lg:flex-row',
       emoji: '💻',
       services: [
@@ -45,7 +45,7 @@ const Stack = () => {
     },
     {
       name: 'Cloud Computing',
-      icon: Cloud, 
+      icon: Cloud,
       align: 'lg:flex-row-reverse',
       emoji: '☁️',
       services: [
@@ -56,7 +56,7 @@ const Stack = () => {
     },
     {
       name: 'DevOps',
-      icon: DevOps, 
+      icon: DevOps,
       align: 'lg:flex-row',
       emoji: '🔧',
       services: [
@@ -65,8 +65,8 @@ const Stack = () => {
         'Monitoring and managing application performance and reliability'
       ]
     }
-  ];
-  
+  ]
+
   return (
     <div
       id="tech-stack"
