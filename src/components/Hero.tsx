@@ -35,11 +35,11 @@ const Hero = () => {
         </div>
       </div>
 
-      {/*   Image section 
+      {/*   Image section */}
       <div className="w-full flex flex-col items-center justify-center">
-        <Image src='/images/bw.png' className={`${isDark ? 'flex' : 'hidden'}`} width={350} height={350} alt='Wildan' />
-        <Image src='/images/o.png' className={`${isDark ? 'hidden' : 'flex'}`} width={350} height={350} alt='Wildan' />
-      </div> */}
+        <Image src='/images/b.png' className={`${isDark ? 'flex' : 'hidden'}`} width={350} height={350} alt='Santhosh' />
+        <Image src='/images/or.png' className={`${isDark ? 'hidden' : 'flex'}`} width={350} height={350} alt='Santhosh' />
+      </div> 
     </div>
   )
 }
