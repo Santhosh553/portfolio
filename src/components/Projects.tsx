@@ -54,18 +54,18 @@ const Projects = () => {
         '/images/ECommerce/E7.png',
         '/images/ECommerce/E8.png'
       ]
-    },
-    {
-      name: 'Event Plus Landing Page',
-      images: [
-        '/images/ev1.webp',
-        '/images/ev2.webp',
-        '/images/ev3.webp',
-        '/images/ev4.webp',
-        '/images/ev5.webp',
-        '/images/ev6.webp'
-      ]
     }
+    // {
+    //   name: 'Event Plus Landing Page',
+    //   images: [
+    //     '/images/ev1.webp',
+    //     '/images/ev2.webp',
+    //     '/images/ev3.webp',
+    //     '/images/ev4.webp',
+    //     '/images/ev5.webp',
+    //     '/images/ev6.webp'
+    //   ]
+    // }
   ]
   return (
     <div
