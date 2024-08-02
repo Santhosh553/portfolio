@@ -2,9 +2,7 @@
 
 import { About, Contact, Hero, Projects, Stack, Footer } from '@/components'
 import { Navbar } from '@/components/navbar'
-
 import { GoogleAnalytics } from 'nextjs-google-analytics'
-
 
 export default function Home () {
   return (
