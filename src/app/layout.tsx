@@ -11,20 +11,10 @@ export const metadata = {
   keywords: 'Santhosh Senthil, Santhosh, Santhosh S',
   abstract: 'Santhosh Senthil, a full-stack developer from India',
   applicationName: "Santhosh's Portfolio",
-  authors: [{ name: 'Santhosh Senthil', url: 'https://wildanzr.my.id' }],
+  authors: [{ name: 'Santhosh Senthil', url: 'https://itsmesanthosh.me' }],
   creator: 'Santhosh Senthil',
   publisher: 'Vercel',
-  viewport: 'width=device-width, initial-scale=1',
-  twitter: {
-    siteId: '@wildanzr24',
-    creatorId: '@wildanzr24',
-    card: 'summary_large_image',
-    site: '@wildanzr24',
-    creator: '@wildanzr24',
-    title: 'Graita Sukma Febriansyah Triwildan Azmi',
-    description: 'Graita Sukma Febriansyah Triwildan Azmi, a full-stack developer from Indonesia',
-    images: 'https://wildanzr.my.id/images/me.png'
-  }
+  viewport: 'width=device-width, initial-scale=1'
 }
 
 export default function RootLayout ({ children }: { children: ReactNode }) {

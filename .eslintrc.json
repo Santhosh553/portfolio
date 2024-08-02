@@ -10,6 +10,7 @@
   },
   "rules": {
     "no-trailing-spaces": "error",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+     "no-html-link-for-pages": "off"
   }
 }
