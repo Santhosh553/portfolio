@@ -13,7 +13,13 @@ const MobileNavbar = () => {
   const { isMenuOpen, setIsMenuOpen } = globalStates
 
   // Navbar data
-  const navData = ['About', 'Tech Stack', 'Projects', 'Contacts']
+  const navData = [
+    { label: 'About', href: '#about' },
+    { label: 'Tech Stack', href: '#tech-stack' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Contacts', href: '#contacts' },
+    { label: 'Resume', href: '/Santhosh.pdf' } 
+  ]
 
   // Close menu when clicked
   const closeMenu = () => {
@@ -28,10 +34,10 @@ const MobileNavbar = () => {
         {navData.map((item, index) => (
           <li key={index} className="flex flex-col cursor-pointer group" onClick={closeMenu}>
             <a
-              href={`#${item.toLowerCase().replace(' ', '-')}`}
-              className="text-lg font-normal tracking-wide duration-500"
-            >
-              {item}
+                  href={item.href}
+                  className="text-lg font-normal tracking-wide duration-500"
+                >
+                  {item.label}
             </a>
             <span className="-bottom-1 left-0 w-0 h-0.5 rounded-full bg-blue-400 dark:bg-pink-400 transition-all group-hover:w-full duration-500"></span>
           </li>
