@@ -18,7 +18,7 @@ const MobileNavbar = () => {
     { label: 'Tech Stack', href: '#tech-stack' },
     { label: 'Projects', href: '#projects' },
     { label: 'Contacts', href: '#contacts' },
-    { label: 'Resume', href: '/Santhosh.pdf' } 
+    { label: 'Resume', href: '/Santhosh.pdf' }
   ]
 
   // Close menu when clicked
