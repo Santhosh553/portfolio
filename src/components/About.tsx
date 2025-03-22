@@ -66,27 +66,26 @@ const About = () => {
       <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
         Hi,... my name is
         <Highlight content=" Santhosh Senthil" />
-        <br /> As a student of
-        Computer Science Engineering at Velammal Engineering College, I am
-        passionate about exploring new technologies and constantly improving
-        my skills as a
-        <Bold content=" Full-Stack Developer" />. I specialize in using the{' '}
-        <Bold content="MERN Stack" />, which includes
-        <Bold content=" MongoDB, Express, React, Node.js" /> along with various other related
-        technologies. I am also proficient in Java development using{' '}
-        <Bold content="Spring Boot" /> and other software development practices.
+        <br /> I am a
+        <Bold content=" System Engineer" /> currently working at
+        <Bold content=" Tata Consultancy Services (TCS)" />, specializing in{' '}
+        <Bold content="Oracle DB and PL/SQL development" />. With a strong
+        foundation in database management and backend solutions, I focus on building
+        scalable and efficient systems.
       </p>
       <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
-        With my expertise in full stack development, Java development, and cloud computing,
-        I am confident that I can make a valuable contribution to your organization.
-        I am committed to developing powerful, scalable web applications that adhere
-        to best practices in software development. 🚀
+        My expertise spans <Bold content="Full-Stack Development" />,
+        <Bold content=" Java with Spring Boot" />, and
+        <Bold content=" Cloud Computing" />. I have experience designing and
+        optimizing applications, ensuring high performance and reliability.
       </p>
       <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
-        Let&apos;s work together to build innovative and high-performing
-        applications that drive your business forward. 😎
+        Passionate about problem-solving and innovation, I thrive on tackling
+        complex challenges and delivering impactful solutions. Let's build
+        something great together! 🚀
       </p>
     </div>
+
 
       <div className="w-full flex flex-col items-center justify-center py-10 lg:px-20 space-y-8">
         <div className="w-full flex flex-col justify-start items-center">
