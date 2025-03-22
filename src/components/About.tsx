@@ -6,11 +6,12 @@ const About = () => {
       id: 1,
       ex: [
         {
-          year: 'Mar 2024',
-          title: 'Technical Support Intern',
-          company: 'TN Autoskills',
+          year: 'Jan 2025',
+          duration : 'At Present',
+          title: 'System Engineer',
+          company: 'Tata Consultancy Services',
           at: 'Chennai',
-          desc: 'Demonstrated strong problem-solving skills, quickly identifying and resolving critical production issues, and improving system stability. Conducted a thorough tech stack evaluation, leading to a migration to more efficient technologies, saving 30% on infrastructure costs annually.'
+          desc: 'Working on Oracle Retail and PL/SQL development, focusing on database management and backend solutions.'
         }
       ]
     },
@@ -18,11 +19,12 @@ const About = () => {
       id: 2,
       ex: [
         {
-          year: 'Dec 2023',
-          title: 'Android Development Intern',
-          company: 'Inblue Infotech',
+          year: 'Mar 2024',
+          duration : '3 months',
+          title: 'Technical Support Intern',
+          company: 'TN Autoskills',
           at: 'Chennai',
-          desc: 'Collaborated with cross-functional teams to define, design, and ship new features within tight deadlines. Utilized modern Android development tools and best practices, including Java, Android Jetpack, and MVM architecture. Conducted thorough testing and debugging of applications, reducing crash rates by 15%.'
+          desc: 'Resolved critical issues, enhancing stability. Led tech migration, cutting infrastructure costs by 30% annually.'
         }
       ]
     },
@@ -30,11 +32,25 @@ const About = () => {
       id: 3,
       ex: [
         {
+          year: 'Dec 2023',
+          duration : '1 month',
+          title: 'Android Development Intern',
+          company: 'Inblue Infotech',
+          at: 'Chennai',
+          desc: 'Built and shipped features on tight deadlines using Java, Jetpack, and MVM. Reduced crash rates by 15% through testing and debugging.'
+        }
+      ]
+    },
+    {
+      id: 4,
+      ex: [
+        {
           year: 'Aug 2022',
+          duration : '6 months',
           title: 'Developer Intern',
           company: 'VBIND Innovation',
           at: 'Chennai',
-          desc: 'Collaborated with the backend team to optimize API calls, leading to a 20% improvement in server response time and enhanced overall application performance. Actively contributed to team knowledge sharing initiatives, conducting workshops on new tools and techniques, resulting in an upskilled and more efficient development team.'
+          desc: 'Optimized API calls, improving server response time by 20%. Led knowledge-sharing workshops, enhancing team efficiency.'
         }
       ]
     }
@@ -91,6 +107,7 @@ const About = () => {
                   <Experience
                     key={index}
                     year={exp.year}
+                    duration={exp.duration}
                     title={exp.title}
                     company={exp.company}
                     at={exp.at}

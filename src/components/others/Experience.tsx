@@ -1,19 +1,24 @@
 interface ExperienceProps {
   year: string;
   title: string;
+  duration: string;
   company: string;
   at: string;
   desc: string;
 }
 
 export default function Experience (props: ExperienceProps) {
-  const { year, title, company, at, desc } = props
+  const { year, title, duration, company, at, desc } = props
   return (
     <div className="w-full collapse collapse-arrow px-0 sm:px-5">
       <input type="checkbox" />
       <div className="collapse-title text-xl font-medium">
         <div className="flex flex-row">
-          <p className="tetx-lg font-semibold text-[#B300A4] dark:text-[#4242BC] duration-300 pr-10 sm:text-xl">{year}</p>
+            <div className="flex flex-col pr-10">
+            <p className="text-lg font-semibold text-[#B300A4] dark:text-[#4242BC] duration-300 sm:text-xl">{year}</p>
+            <div className="h-1" />
+            <p className="text-lg font-semibold text-[#B300A4] dark:text-[#4242BC] duration-300 sm:text-base">{duration}</p>
+            </div>
 
           <div className="flex flex-col">
             <p className="text-xl font-medium sm:text-2xl">{title}</p>
