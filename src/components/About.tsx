@@ -7,7 +7,7 @@ const About = () => {
       ex: [
         {
           year: 'Jan 2025',
-          duration : 'At Present',
+          duration: 'At Present',
           title: 'System Engineer',
           company: 'Tata Consultancy Services',
           at: 'Chennai',
@@ -20,7 +20,7 @@ const About = () => {
       ex: [
         {
           year: 'Mar 2024',
-          duration : '3 months',
+          duration: '3 months',
           title: 'Technical Support Intern',
           company: 'TN Autoskills',
           at: 'Chennai',
@@ -33,7 +33,7 @@ const About = () => {
       ex: [
         {
           year: 'Dec 2023',
-          duration : '1 month',
+          duration: '1 month',
           title: 'Android Development Intern',
           company: 'Inblue Infotech',
           at: 'Chennai',
@@ -46,7 +46,7 @@ const About = () => {
       ex: [
         {
           year: 'Aug 2022',
-          duration : '6 months',
+          duration: '6 months',
           title: 'Developer Intern',
           company: 'VBIND Innovation',
           at: 'Chennai',
@@ -81,11 +81,10 @@ const About = () => {
       </p>
       <p className="text-center font-light text-base md:text-lg lg:text-xl tracking-wide">
         Passionate about problem-solving and innovation, I thrive on tackling
-        complex challenges and delivering impactful solutions. Let's build
+        complex challenges and delivering impactful solutions. Let&apos;s build
         something great together! 🚀
       </p>
     </div>
-
 
       <div className="w-full flex flex-col items-center justify-center py-10 lg:px-20 space-y-8">
         <div className="w-full flex flex-col justify-start items-center">
